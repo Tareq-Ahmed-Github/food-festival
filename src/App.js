@@ -1,14 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Products from './components/Products/Products';
-import Carts from './components/Carts/Carts';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <Products></Products>
-        <Carts></Carts>
+        <header><h1>Food Festival</h1></header>
+        <Shop></Shop>
       </div>
     </div>
   );

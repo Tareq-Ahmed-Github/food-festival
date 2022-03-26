@@ -39,5 +39,9 @@
 
 .container{
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+}
+.container header{
+  background-color: #282c34;
+  color: wheat;
 }

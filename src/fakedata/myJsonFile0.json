@@ -1,0 +1,65 @@
+[
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 50,
+		"img": "./../images/berry.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Foodr",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 70,
+		"img": "./../images/donuts.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 80,
+		"img": "./../images/french-fry.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 120,
+		"img": "./../images/honey-cake.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 90,
+		"img": "./../images/kebab.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 30,
+		"img": "./../images/mochmoch.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 20,
+		"img": "./../images/omlet.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 100,
+		"img": "./../images/pestry.jpg"
+	},
+	{
+		"id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+		"category": "Food",
+		"name": "ULTRABOOST 22 SHOES",
+		"price": 190,
+		"img": "./../images/morobba.jpg"
+	}
+]
