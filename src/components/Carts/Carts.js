@@ -1,24 +1,28 @@
 import React from 'react';
 import './Carts.css';
-const Cart = ({cart}) => {
-    let total = 0;
-    let shipping = 0;
-    for(const product of cart){
-        total = total + product.price;
-        shipping = shipping + product.shipping;
-    }
-    const tax = (total * 0.1).toFixed(2);
-    const grandTotal = total + shipping + parseFloat(tax);
+const Carts = ( {cart} ) => {
     return (
         <div className='cart'>
-            <h3>Order Summary</h3>
+            <h3>Select clothes</h3>
             <p>Selected Items: {cart.length}</p>
-            <p>Total price: {total}</p>
-            <p>Total shipping: {shipping}</p>
-            <p>Tax: {tax}</p>
-            <p>Grand Total: {grandTotal}</p>
+            <div>
+                {
+                    cart.map((item) => {
+                        return (
+                            <div className='selected-carts'>
+                                <div className='cart-img'>
+                                    <img src={item.picture} alt="" />
+                                </div>
+                                <div>
+                                    <p>{item.name}</p>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
     );
 };
 
-export default Cart;
+export default Carts;

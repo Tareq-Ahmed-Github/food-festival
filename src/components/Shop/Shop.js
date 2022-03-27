@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Cart from '../Carts/Carts';
+import Carts from '../Carts/Carts';
 import Product from '../Products/Products';
 import './Shop.css'
 const Shop = () => {
@@ -12,10 +12,15 @@ const Shop = () => {
         .then(data => setProducts(data))
     },[])
     const addToCart = (product) => {
-        // console.log(product);
+        if(cart.length >= 4){
+            return;
+        }
         const newCart = [...cart, product];
         setCart(newCart);
-    }
+    };
+    const removeCart = () => {
+        setCart([]);
+    };
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -24,8 +29,15 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                {/* <Cart cart={cart}></Cart> */}
+                <Carts cart={cart}></Carts>
+
+                <div>
+                <button className='choose-btn'>Choose 1 for me</button>
+
+                <button className='choose-btn' onClick={removeCart}>Choose again</button>
             </div>
+            </div>
+            
         </div>
     );
 };

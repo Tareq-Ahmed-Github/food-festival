@@ -1,13 +1,26 @@
 .shop-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 30px;
+    margin: 0px auto;
 }
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
+    margin: 0px auto;
 }
 .cart-container{
     background-color: orange;
     border-left: 2px solid black;
+}
+.choose-btn{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    background-color: bisque;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 600;
 }

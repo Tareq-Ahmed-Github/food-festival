@@ -39,9 +39,9 @@
 
 .container{
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
 }
 .container header{
   background-color: #282c34;
   color: wheat;
+  margin-bottom: 10px;
 }
