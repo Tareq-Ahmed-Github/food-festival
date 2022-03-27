@@ -1,3 +1,7 @@
+.shop-total{
+    display: flex;
+    flex-direction: column;
+}
 .shop-container{
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -8,7 +12,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 45px;
-    margin: 0px auto;
+    margin: 10px auto;
 }
 .cart-container{
     background-color: orange;
@@ -23,4 +27,14 @@
     border-radius: 8px;
     font-size: medium;
     font-weight: 600;
+}
+.questions{
+    background-color: orange;
+    width: 75.4%;
+    margin: 0px auto;
+    border: 2px solid black;
+
+}
+.questions p{
+    margin: 20px;
 }
