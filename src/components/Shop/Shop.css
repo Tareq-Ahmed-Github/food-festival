@@ -19,6 +19,7 @@
     border-left: 2px solid black;
 }
 .choose-btn{
+    cursor: pointer;
     padding: 20px 30px;
     display: flex;
     flex-direction: column;

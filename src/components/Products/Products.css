@@ -18,6 +18,7 @@
     margin-top: -30px;
 }
 .btn-cart{
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +31,7 @@
     bottom: 0;
 }
 .btn-cart:hover{
+    cursor: pointer;
     background-color: orange;
     color: black;
     font-weight: 600;
